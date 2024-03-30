@@ -1,53 +1,122 @@
-.teste {
+.background-header {
     background-color: #ffffff;
     height: 80px;
 }
 
-.padding-img-logo {
+.img-logo-header {
     padding: 1em;
 }
 
-.h1-titulo-topo {
-    font-size: 1.875em;
-    font-weight: 400;
+.padding-left-15 {
+    padding-left: 15px;
+}
+
+.alura-logo-header {
+    display: block;
     font-family: "Josefin Sans";
-    margin: -50px 0px 0px 80px;
+    font-size: 1.880em;
+    font-weight: 400;
+    position: relative;
+    margin-top: -50px;
+    margin-left: 65px;
 }
 
 .font-weight-700 {
     font-weight: 700;
 }
 
-.color-links-header {
+.link-principal-1 {
+    padding: 1.4em 1em;
+    text-transform: uppercase;
     color: #000;
+    font-size: 20px;
+    list-style: none;
+    position: absolute;
     text-decoration: none;
+    font-family: "Josefin Sans";
 }
 
-.categoria1 {
-    padding: 2em 1em;
-    text-transform: uppercase;
-    color: #000;
-    list-style: none;
-    margin: -80px 0px 0px 249px;
-    position: absolute;
+.link-principal-1:hover {
+    color: white;
+    background-color: #326589;
+    height: 80px;
 }
 
-.categoria2 {
-    padding: 2em 1em;
+.link-principal-2 {
+    padding: 1.4em 1em;
     text-transform: uppercase;
     color: #000;
+    font-size: 20px;
     list-style: none;
-    margin: -205px 0px 0px 386px;
     position: absolute;
+    text-decoration: none;
+    margin-left: 170px;
+    font-family: "Josefin Sans";
 }
 
-.categoria3 {
-    padding: 2em 1em;
+.link-principal-2:hover {
+    color: grey;
+}
+
+.link-principal-3 {
+    padding: 1.4em 1em;
     text-transform: uppercase;
     color: #000;
+    font-size: 20px;
     list-style: none;
-    margin: -205px 0px 0px 510px;
     position: absolute;
+    text-decoration: none;
+    margin-left: 325px;
+    font-family: "Josefin Sans";
+}
+
+.link-principal-3:hover {
+    color: grey;
+}
+
+.background-color-main {
+    background-color: #002F52;
+    height: 420px;
+}
+
+.padding-img-header {
+    padding: 1.8em;
+}
+
+.minha-sacola-header {
+    font-family: "Josefin Sans";
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    color: #000;
+    font-size: 1.45em;
+    margin-top: -15px;
+}
+
+.meu-perfil {
+    font-family: "Josefin Sans";
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    color: #000;
+    font-size: 1.45em;
+    margin-top: -25px;
+}
+
+.margin-meu-perfil {
+    margin-top: -70px;
+    margin-left: -25px;
+}
+
+.minha-sacola-header-p {
+    margin-top: 19px;
+    margin-left: -25px;
+}
+
+.img-meu-perfil {
+    padding: 1.8em;
+    margin-top: -88px;
+    margin-left: 210px;
 }
 
 /*Responsive*/
