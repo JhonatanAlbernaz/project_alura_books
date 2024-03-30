@@ -1,7 +1,54 @@
+.teste {
+    background-color: #ffffff;
+    height: 80px;
+}
 
+.padding-img-logo {
+    padding: 1em;
+}
 
+.h1-titulo-topo {
+    font-size: 1.875em;
+    font-weight: 400;
+    font-family: "Josefin Sans";
+    margin: -50px 0px 0px 80px;
+}
 
+.font-weight-700 {
+    font-weight: 700;
+}
 
+.color-links-header {
+    color: #000;
+    text-decoration: none;
+}
+
+.categoria1 {
+    padding: 2em 1em;
+    text-transform: uppercase;
+    color: #000;
+    list-style: none;
+    margin: -80px 0px 0px 249px;
+    position: absolute;
+}
+
+.categoria2 {
+    padding: 2em 1em;
+    text-transform: uppercase;
+    color: #000;
+    list-style: none;
+    margin: -205px 0px 0px 386px;
+    position: absolute;
+}
+
+.categoria3 {
+    padding: 2em 1em;
+    text-transform: uppercase;
+    color: #000;
+    list-style: none;
+    margin: -205px 0px 0px 510px;
+    position: absolute;
+}
 
 /*Responsive*/
 
