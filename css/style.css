@@ -76,9 +76,70 @@
     padding-top: 20px;
 }
 
+.display-none-coracao {
+    display: none !important;
+}
+
+.bars-menu {
+    display: none;
+}
+
 /*Responsive*/
 
 @media (max-width: 320px) {
+
+    .display-none-coracao {
+        display: block !important;
+    }
+
+    .bars-menu {
+        display: block;
+    }
+
+    .padding-header {
+        padding: 0 0em;
+        height: 80px;
+        background-color: #ffffff;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    .alura-books-h1 {
+        display: none;
+        font-family: "Josefin Sans";
+        font-size: 1.875em;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+
+    .col-display {
+        display: none;
+    }
+
+    .link-perfil {
+        display: none;
+    }
+
+    .margin-col {
+        margin-top: -65px;
+        margin-left: 140px;
+        width: 50%;
+    }
+
+    .col-width {
+        width: 50%;
+    }
+
+    .padding-sacola {
+        padding: 0.7em;
+    }
+
+    .background-color-section {
+        background-color: #002F52;
+        height: 320px;
+        width: 103%;
+    }
 
 }
 
