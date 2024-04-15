@@ -1,122 +1,79 @@
-.background-header {
-    background-color: #ffffff;
+.padding-header {
+    padding: 0 3.5em;
     height: 80px;
-}
-
-.img-logo-header {
-    padding: 1em;
-}
-
-.padding-left-15 {
-    padding-left: 15px;
-}
-
-.alura-logo-header {
-    display: block;
-    font-family: "Josefin Sans";
-    font-size: 1.880em;
-    font-weight: 400;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
-    margin-top: -50px;
-    margin-left: 65px;
+}
+
+.div-logo-header {
+    display: flex;
+    align-items: center;
+}
+
+.image-logo-alura {
+    padding: 1em;
+    height: 72px;
+    width: 72px;
 }
 
 .font-weight-700 {
     font-weight: 700;
 }
 
-.link-principal-1 {
-    padding: 1.4em 1em;
-    text-transform: uppercase;
-    color: #000;
-    font-size: 20px;
-    list-style: none;
-    position: absolute;
-    text-decoration: none;
+.alura-books-h1 {
+    display: block;
     font-family: "Josefin Sans";
+    font-size: 1.875em;
+    font-weight: 400;
+    padding-top: 10px;
 }
 
-.link-principal-1:hover {
-    color: white;
-    background-color: #326589;
+.links-header {
+    color: #000;
+    text-decoration: none !important;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 28px;
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.links-header:hover {
+    background-color: #002F52;
+    color: #ffffff;
     height: 80px;
 }
 
-.link-principal-2 {
-    padding: 1.4em 1em;
-    text-transform: uppercase;
-    color: #000;
-    font-size: 20px;
-    list-style: none;
-    position: absolute;
-    text-decoration: none;
-    margin-left: 170px;
-    font-family: "Josefin Sans";
+.display-flex {
+    display: flex;
 }
 
-.link-principal-2:hover {
-    color: grey;
-}
-
-.link-principal-3 {
-    padding: 1.4em 1em;
-    text-transform: uppercase;
-    color: #000;
-    font-size: 20px;
-    list-style: none;
-    position: absolute;
-    text-decoration: none;
-    margin-left: 325px;
-    font-family: "Josefin Sans";
-}
-
-.link-principal-3:hover {
-    color: grey;
-}
-
-.background-color-main {
+.background-color-section {
     background-color: #002F52;
-    height: 420px;
+    height: 320px;
 }
 
-.padding-img-header {
-    padding: 1.8em;
-}
-
-.minha-sacola-header {
-    font-family: "Josefin Sans";
+.links-icones-header {
     display: flex;
     align-items: center;
-    text-decoration: none !important;
+    text-decoration: none;
     color: #000;
-    font-size: 1.45em;
-    margin-top: -15px;
+    font-size: 1.35em;
 }
 
-.meu-perfil {
-    font-family: "Josefin Sans";
-    display: flex;
-    align-items: center;
-    text-decoration: none !important;
+.links-icones-header:hover {
     color: #000;
-    font-size: 1.45em;
-    margin-top: -25px;
 }
 
-.margin-meu-perfil {
-    margin-top: -70px;
-    margin-left: -25px;
+.padding-sacola {
+    padding: 1.1em;
 }
 
-.minha-sacola-header-p {
-    margin-top: 19px;
-    margin-left: -25px;
-}
-
-.img-meu-perfil {
-    padding: 1.8em;
-    margin-top: -88px;
-    margin-left: 210px;
+.link-perfil {
+    padding-top: 20px;
 }
 
 /*Responsive*/
