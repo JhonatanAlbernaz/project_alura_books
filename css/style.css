@@ -84,12 +84,28 @@
     display: none;
 }
 
+.container_botao {
+    display: none;
+}
+
+.container-rotulo {
+    display: none;
+}
+
+.lista-menu {
+    display: none;
+}
+
 /*Responsive*/
 
 @media (max-width: 320px) {
 
     .display-none-coracao {
         display: block !important;
+    }
+
+    .container-rotulo {
+        display: block;
     }
 
     .bars-menu {
@@ -138,7 +154,50 @@
     .background-color-section {
         background-color: #002F52;
         height: 320px;
-        width: 103%;
+        width: 108%;
+    }
+
+    .container-rotulo {
+        background-color: #002F52;
+    }
+
+    .lista-menu {
+        display: none;
+        background-color: white;
+        margin-top: 435px;
+        position: absolute;
+        margin-left: -24px;
+    }
+
+    .container_botao {
+        display: none;
+    }
+
+    .container_botao:checked~.lista-menu {
+        display: block !important;
+    }
+
+    .teste {
+        background-image: url("https://robertojunnior.github.io/alura-books/img/MenuAberto.svg");
+        width: 30px;
+        height: 25px;
+        display: inline-block;
+    }
+
+    .link-menu-titulo {
+        text-decoration: none;   
+        font-weight: 700;
+        font-size: 20px;
+        padding: 1em !important;
+        color: #eb9800;
+    }
+
+    .lista-menu-itens {
+        text-decoration: none;
+        color: #326589 ;
+        padding: 1em;
+        font-size: 20px;
+        text-transform: uppercase;
     }
 
 }
