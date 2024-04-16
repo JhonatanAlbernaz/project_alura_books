@@ -160,6 +160,147 @@
     text-align: center;
 }
 
+.section-cinza {
+    background-color: #ebe6e6;
+    height: 473px;
+}
+
+.div-lancamentos {
+    height: 80px;
+    text-align: center;
+}
+
+.titulo-lancamentos {
+    font-size: 1.675em;
+    color: #eb9800;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1em;
+}
+
+.card {
+    margin: 6em 0 0 0em;
+    width: 100%;
+    background: white;
+    box-shadow: 15px 15px 32px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 1.5em 1em;
+}
+
+.titulo-card {
+    font-size: 1.35em;
+    color: #eb9800;
+    font-weight: 700;
+}
+
+.subtitulo-card {
+    color: #002F52;
+    font-size: 1.125em;
+    font-weight: 700;
+    margin: 0.825em 0;
+}
+
+.descricao-card {
+    font-size: 1em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    font-weight: 700;
+}
+
+.img-card {
+    margin-bottom: 1em;
+    margin-left: 29%;
+    border-radius: 10px
+}
+
+.imgs-card {
+    margin: 0 .5em;
+}
+
+.botao-saiba-mais {
+    background-color: #eb9800;
+    padding: 1em 2.6em;
+    color:white;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 69px;
+    border-radius: 10px
+}
+
+.botao-saiba-mais:hover {
+    color: #002F;
+    border-radius: 10px
+}
+
+.container1 {
+    display: flex;
+    margin-top: 60px;
+}
+  
+.cards {
+    display: flex;
+    height: 370px;
+    width: 263px;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.cards:not(:first-child) {
+    margin-left: -50px;
+}
+  
+.cards:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
+  
+.cards:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
+
+.img-card-carousel {
+    margin: -100px 0px 0px -20px;
+    height: 370px;
+    border-radius: 10px;
+}
+  
+.title {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+  
+.bar {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    height: 5px;
+    width: 150px;
+}
+  
+.cards:hover .filledbar {
+    width: 120px;
+    transition: 0.4s ease-out;
+}
+  
+svg {
+    fill: #17141d;
+    stroke-width: 2px;
+}
+  
+.cards:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+}
+
 /*Responsive*/
 
 @media (max-width: 320px) {
@@ -284,6 +425,80 @@
         background-color: #002F52;
         height: 380px;
         width: 108%;
+    }
+
+    .imgs-card {
+        margin: 0 .5em;
+        display: none;
+    }
+
+    .titulo-lancamentos {
+        font-size: 1.39em;
+        color: #eb9800;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 1em;
+    }
+
+    .cards {
+        display: flex;
+        height: 370px;
+        width: 66px;
+        background-color: #17141d;
+        border-radius: 10px;
+        box-shadow: -1rem 0 3rem #000;
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+
+    .section-cinza {
+        background-color: #ebe6e6;
+        height: 840px;
+        width: 108%;
+    }
+
+    .botao-saiba-mais {
+        background-color: #eb9800;
+        padding: 1em 2em;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 24%;
+        border-radius: 10px;
+    }
+
+    .img-card {
+        display: none;
+    }
+
+    .titulo-card {
+        font-size: 1.4em;
+        color: #eb9800;
+        font-weight: 700;
+    }
+
+    .descricao-card {
+        font-size: 1em;
+        margin-right: 1.5em;
+        margin-bottom: 2.5em;
+        font-weight: 700;
+    }
+
+    .subtitulo-card {
+        color: #002F52;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: 0.825em 0;
+    }
+
+    .card {
+        margin: 5em 0 0 0em;
+        width: 100%;
+        background: white;
+        box-shadow: 15px 15px 32px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 1.5em 1em;
     }
 
 }
@@ -412,6 +627,80 @@
         width: 108%;
     }
 
+    .imgs-card {
+        margin: 0 .5em;
+        display: none;
+    }
+
+    .titulo-lancamentos {
+        font-size: 1.6em;
+        color: #eb9800;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 1em;
+    }
+
+    .cards {
+        display: flex;
+        height: 370px;
+        width: 97px;
+        background-color: #17141d;
+        border-radius: 10px;
+        box-shadow: -1rem 0 3rem #000;
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+
+    .section-cinza {
+        background-color: #ebe6e6;
+        height: 840px;
+        width: 108%;
+    }
+
+    .botao-saiba-mais {
+        background-color: #eb9800;
+        padding: 1em 2em;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 28%;
+        border-radius: 10px;
+    }
+
+    .img-card {
+        display: none;
+    }
+
+    .titulo-card {
+        font-size: 1.4em;
+        color: #eb9800;
+        font-weight: 700;
+    }
+
+    .descricao-card {
+        font-size: 1em;
+        margin-right: 1.5em;
+        margin-bottom: 2.5em;
+        font-weight: 700;
+    }
+
+    .subtitulo-card {
+        color: #002F52;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: 0.825em 0;
+    }
+
+    .card {
+        margin: 5em 0 0 0em;
+        width: 100%;
+        background: white;
+        box-shadow: 15px 15px 32px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 1.5em 1em;
+    }
+
 }
 
 @media (min-width:  377px) and (max-width: 576px) {
@@ -532,6 +821,72 @@
         text-align: center;
     }
 
+    .imgs-card {
+        margin: 0 .5em;
+        display: none;
+    }
+
+    .cards {
+        display: flex;
+        height: 370px;
+        width: 113px;
+        background-color: #17141d;
+        border-radius: 10px;
+        box-shadow: -1rem 0 3rem #000;
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+
+    .section-cinza {
+        background-color: #ebe6e6;
+        height: 840px;
+        width: 103%;
+    }
+
+    .botao-saiba-mais {
+        background-color: #eb9800;
+        padding: 1em 2em;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 30%;
+        border-radius: 10px;
+    }
+
+    .img-card {
+        display: none;
+    }
+
+    .titulo-card {
+        font-size: 1.4em;
+        color: #eb9800;
+        font-weight: 700;
+    }
+
+    .descricao-card {
+        font-size: 1em;
+        margin-right: 1.5em;
+        margin-bottom: 2.5em;
+        font-weight: 700;
+    }
+
+    .subtitulo-card {
+        color: #002F52;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: 0.825em 0;
+    }
+
+    .card {
+        margin: 5em 0 0 0em;
+        width: 100%;
+        background: white;
+        box-shadow: 15px 15px 32px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 1.5em 1em;
+    }
+
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -640,6 +995,68 @@
         width: 100%;
     }
 
+    .cards {
+        display: flex;
+        height: 370px;
+        width: 266px;
+        background-color: #17141d;
+        border-radius: 10px;
+        box-shadow: -1rem 0 3rem #000;
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+
+    .section-cinza {
+        background-color: #ebe6e6;
+        height: 840px;
+    }
+
+    .botao-saiba-mais {
+        background-color: #eb9800;
+        padding: 1em 2em;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+
+    .img-card {
+        margin-bottom: 1.8em;
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+
+    .titulo-card {
+        font-size: 1.4em;
+        color: #eb9800;
+        font-weight: 700;
+    }
+
+    .descricao-card {
+        font-size: 1em;
+        margin-right: 1.5em;
+        margin-bottom: 1.5em;
+        font-weight: 700;
+    }
+
+    .subtitulo-card {
+        color: #002F52;
+        font-size: 1.2em;
+        font-weight: 700;
+        margin: 0.825em 0;
+    }
+
+    .card {
+        margin: 5em 0 0 0em;
+        width: 100%;
+        background: white;
+        box-shadow: 15px 15px 32px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 1.5em 1em;
+    }
+
 }
   
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -746,6 +1163,61 @@
 
     .widht-row {
         width: 100%;
+    }
+
+    .cards {
+        display: flex;
+        height: 370px;
+        width: 186px;
+        background-color: #17141d;
+        border-radius: 10px;
+        box-shadow: -1rem 0 3rem #000;
+        transition: 0.4s ease-out;
+        position: relative;
+        left: 0px;
+    }
+
+    .section-cinza {
+        background-color: #ebe6e6;
+        height: 490px;
+    }
+
+    .botao-saiba-mais {
+        background-color: #eb9800;
+        padding: 1em 2em;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+
+    .img-card {
+        margin-bottom: 1em;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+
+    .titulo-card {
+        font-size: 1.2em;
+        color: #eb9800;
+        font-weight: 700;
+    }
+
+    .descricao-card {
+        font-size: 0.9em;
+        margin-right: 1.5em;
+        margin-bottom: 1.5em;
+        font-weight: 700;
+    }
+
+    .card {
+        margin: 5em 0 0 0em;
+        width: 100%;
+        background: white;
+        box-shadow: 15px 15px 32px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 1.5em 1em;
     }
 
 }
